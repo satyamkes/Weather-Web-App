@@ -1,7 +1,7 @@
 import React from "react";
 import WeatherApp from "./components/WeatherApp";
 import Forecast from "./components/Forecast";
-import SearchBar from "./components/SearchBar";
+
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-6">
