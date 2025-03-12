@@ -64,7 +64,7 @@ export default function WeatherApp() {
         />
         <button
           onClick={fetchWeather}
-          className="flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-5 rounded-2xl text-xl font-semibold transition-all transform hover:scale-105 shadow-xl"
+          className="flex items-center gap-3 hover:bg-blue-700 text-black px-8 py-5 rounded-2xl text-xl font-semibold transition-all transform hover:scale-105 shadow-xl"
         >
           <Search size={28} /> Search
         </button>
