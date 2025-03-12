@@ -41,16 +41,15 @@ export default function Forecast() {
           />
           <button
             onClick={fetchForecast}
-            className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all transform hover:scale-105 shadow-lg"
+            className="flex items-center gap-2 hover:bg-blue-700 text-black px-8 py-4 rounded-xl text-lg font-semibold transition-all transform hover:scale-105 shadow-lg"
           >
             Get Forecast
           </button>
         </div>
 
-        {/* Error Handling */}
+   
         {error && <p className="text-red-500 text-lg mt-4">{error}</p>}
 
-        {/* Forecast Display */}
         {forecast && (
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
             {forecast.map((day) => (
