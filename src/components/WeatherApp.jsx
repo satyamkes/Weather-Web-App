@@ -7,7 +7,7 @@ export default function WeatherApp() {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
+//adding the comment
   const fetchWeather = async () => {
     if (!city.trim()) return;
     setLoading(true);
